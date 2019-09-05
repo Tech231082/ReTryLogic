@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ReTryAnalyzerSuite">
+	<listener>
+		<listener class-name="main.TransFormer" />
+	</listener>
+
+	<test thread-count="5" name="Test">
+
+		<classes>
+
+			<class name="src/test.test.RetryLogic" />
+
+
+
+
+		</classes>
+	</test>
+
+</suite>
